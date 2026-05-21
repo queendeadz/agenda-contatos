@@ -1,3 +1,5 @@
+# listas sao definidas com colchetes []
+
 nome = "Sarah"
 idade = 23
 

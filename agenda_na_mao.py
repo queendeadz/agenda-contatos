@@ -1,7 +1,7 @@
 AGENDA = {
     "sarah": {
         "tel": 11987654321,
-        "email": "eppluged@gmail.com",
+        "email": "sarah@gmail.com",
         "endereco": "av das avenidas 1040",
     },
     "vovo":  {
