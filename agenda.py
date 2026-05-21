@@ -33,11 +33,18 @@ def incluir_editar_contato(contato, telefone, email, endereco):
     }
     print('====== Contato {} adicionado/editado com sucesso ======'.format(contato))
 
+
+def excluir_contato(contato):
+    AGENDA.pop(contato)
+    print('====== Contato {} removido com sucesso ======'.format(contato))
+
+
+
 #buscar_contato("abel")
 incluir_editar_contato('abel', '1138462384632', 'abel@gmail.com', 'avenida n3')
 incluir_editar_contato('sarah', '4343434343', 'sarah@pvsr3@gmail.com', 'avenida n1')
 incluir_editar_contato('jose', '8888888', '', None)
-
+excluir_contato('maria')
 mostrar_contatos()
 
 
