@@ -1,21 +1,21 @@
 AGENDA = {
     "sarah": {
-        "tel": 11970964821,
+        "tel": 11987654321,
         "email": "eppluged@gmail.com",
-        "endereco": "av das cerejeiras 1040",
+        "endereco": "av das avenidas 1040",
     },
     "vovo":  {
-        "tel": 11974774475,
+        "tel": 1197777775,
         "email": "maria@gmail.com",
-        "endereco": "av manoel 303",
+        "endereco": "av lanches 303",
     },
     "mamae":  {
-        "tel": 11996076433,
+        "tel": 11933333333,
         "email": "mamae@gmail.com",
         "endereco": "av das ruas 7",
     },
     "panda":  {
-        "tel": 11996122070,
+        "tel": 11945234444,
         "email": "panda@gmail.com",
         "endereco": "rua de cima 245",
     }
