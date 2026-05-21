@@ -25,16 +25,19 @@ def buscar_contato(contato):
     print("Endereco:", AGENDA[contato]["endereco"])
 
 
-def incluir_contato(contato, telefone, email, endereco):
+def incluir_editar_contato(contato, telefone, email, endereco):
     AGENDA[contato] = {
     "telefone": telefone,
     "email": email,
     "endereco": endereco,
     }
-    print('====== Contato {} adicionado com sucesso ======'.format(contato))
+    print('====== Contato {} adicionado/editado com sucesso ======'.format(contato))
 
 #buscar_contato("abel")
-incluir_contato('abel', '1138462384632', 'abel@gmail.com', 'avenida n3')
+incluir_editar_contato('abel', '1138462384632', 'abel@gmail.com', 'avenida n3')
+incluir_editar_contato('sarah', '4343434343', 'sarah@pvsr3@gmail.com', 'avenida n1')
+incluir_editar_contato('jose', '8888888', '', None)
+
 mostrar_contatos()
 
 
