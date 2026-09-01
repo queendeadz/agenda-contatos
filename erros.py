@@ -2,11 +2,18 @@
 # erros em tempo de execução
 # erros de logica
 
-def divisao(a, b):
-    try:
-        print(a/b)
-    except Exception as e:
-        print('Divisao invalida')
-        print(e)
+try:
+        a = float(input('Digite o numero A: '))
+        b = float(input('Digite o numero B: '))
 
-divisao(20,10)
+        print(a/b)
+
+except ValueError as e:
+        print('Input invalido, digite apenas numeros')
+except ZeroDivisionError as e:
+    print('Não pode ser feita divisão por zero')
+except Exception as e:
+    print('Algum erro ocorreu')
+    print(e)
+finally:
+    print('Fim do programa')
